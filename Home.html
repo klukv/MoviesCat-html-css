@@ -12,7 +12,7 @@
 		rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/home.css">
-	<title>MoviesCat</title>
+	<title>Home</title>
 </head>
 
 <body>
@@ -23,42 +23,52 @@
 					<img src="img/header/logo.svg" alt="logo">
 				</div>
 				<ul class="header__menu">
-					<li class="header__menu-link"><a href="#">Главная</a></li>
-					<li class="header__menu-link"><a href="#">Фильмы</a></li>
+					<li class="header__menu-link"><a
+							href="file:///D:/StudBRUT/MoviesCat/MoviesCat-html-css/Home.html">Главная</a></li>
+					<li class="header__menu-link"><a
+							href="file:///D:/StudBRUT/MoviesCat/MoviesCat-html-css/Movies.html">Фильмы</a></li>
 					<li class="header__menu-link"><a href="#">Сериалы</a></li>
 				</ul>
 				<div class="header__links">
 					<a href="" class="header__link search"><img src="img/header/search.svg" alt="search"></a>
-					<a href="" class="header__link avatar"><img src="img/header/person.svg" alt="avatar"></a>
+					<a href="file:///D:/StudBRUT/MoviesCat/MoviesCat-html-css/PersonalAccount.html"
+						class="header__link avatar"><img src="img/header/person.svg" alt="avatar"></a>
 				</div>
 			</div>
 		</div>
 	</header>
 	<main class="main">
-		<div class="container">
-			<section class="banner">
+		<section class="banner">
+			<div class="container">
 				<div class="banner__inner">
-					<h1 class="banner__title">Почувствуй силу кино
-						у себя дома</h1>
-					<h3 class="banner__subtitle">Смотрите фильмы и сериалы только у нас</h3>
-					<button class="banner__button">Узнать больше</button>
+					<div class="banner__inner-info">
+						<h1 class="banner__title">Почувствуй силу кино
+							<br>у себя дома
+						</h1>
+						<h3 class="banner__subtitle">Смотрите фильмы и сериалы только у нас</h3>
+						<button class="banner__button">Узнать больше</button>
+					</div>
 				</div>
-			</section>
+			</div>
+		</section>
+		<div class="container">
 			<section class="compilation">
 				<div class="compilation__inner">
-					<div class="compilation__title title">Популярное</div>
-					<div class="compilation__title title">Актуальное</div>
+					<div class="compilation__titles">
+						<div class="compilation__title title"><a href="#">Популярное</a></div>
+						<div class="compilation__title title"><a href="#">Актуальное</a></div>
+					</div>
 					<div class="compilation__slider">
-						<div class="compilation__slider_block"><img src="img/banner/guardians.jpg" alt="movie"
-								class="compilation__movie"></div>
-						<div class="compilation__slider_block"><img src="img/banner/blackP.jpg" alt="movie"
-								class="compilation__movie"></div>
-						<div class="compilation__slider_block"><img src="img/banner/lostCity.jpg" alt="movie"
-								class="compilation__movie"></div>
-						<div class="compilation__slider_block"><img src="img/banner/JW.jpg" alt="movie"
-								class="compilation__movie"></div>
-						<div class="compilation__slider_block"><img src="img/banner/Thor.jpg" alt="movie"
-								class="compilation__movie"></div>
+						<a href="#" class="compilation__slider_block"><img src="img/banner/guardians.jpg" alt="movie"
+								class="compilation__movie"></a>
+						<a href="#" class="compilation__slider_block"><img src="img/banner/blackP.jpg" alt="movie"
+								class="compilation__movie"></a>
+						<a href="#" class="compilation__slider_block"><img src="img/banner/lostCity.jpg" alt="movie"
+								class="compilation__movie"></a>
+						<a href="#" class="compilation__slider_block"><img src="img/banner/JW.jpg" alt="movie"
+								class="compilation__movie"></a>
+						<a href="#" class="compilation__slider_block"><img src="img/banner/Thor.jpg" alt="movie"
+								class="compilation__movie"></a>
 					</div>
 				</div>
 			</section>
@@ -70,7 +80,7 @@
 							<img src="img/about/quality.jpg" alt="family">
 						</div>
 						<div class="about__quality-info">
-							<div class="about__quality-title">Гарантия качества</div>
+							<div class="about__quality-title title">Гарантия качества</div>
 							<div class="about__quality-text">Все фильмы и сериалы в нашем онлайн-кионтеатре представлены
 								зрителю
 								в наилучшем качестве и с профессиональной озвучкой.</div>
@@ -78,7 +88,7 @@
 					</div>
 					<div class="about__download">
 						<div class="about__download-info">
-							<div class="about__download-title">Возможность скачивания</div>
+							<div class="about__download-title title">Возможность скачивания</div>
 							<div class="about__download-text">В нашем онлайн-кинотеатре можно скачивать фильмы. Поэтому
 								если
 								вы собираетесь в дорогу, то у вас есть возможность скачать несколько фильмов и скоротать
@@ -95,13 +105,13 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__inner">
-				<div class="footer__approval">Согласие на обработку персональных данных</div>
-				<div class="footer__privacy">Политика конфиденциальности</div>
-				<div class="footer__socail">
-					<a href="#" class="footer__socail-instagram"></a>
-					<a href="#" class="footer__socail-youtube"></a>
-					<a href="#" class="footer__socail-facebook"></a>
-					<a href="#" class="footer__socail-twitter"></a>
+				<div class="footer__approval"><a href="#">Согласие на обработку<br> персональных данных</a></div>
+				<div class="footer__privacy"><a href="#">Политика конфиденциальности</a></div>
+				<div class="footer__social">
+					<a href="#" class="footer__social-instagram"><img src="./img/footer/inst.svg" alt="instagram"></a>
+					<a href="#" class="footer__social-youtube"><img src="./img/footer/youtube.svg" alt="youtube"></a>
+					<a href="#" class="footer__social-facebook"><img src="./img/footer/facebook.svg" alt="facebook"></a>
+					<a href="#" class="footer__social-twitter"><img src="./img/footer/twitter.svg" alt="twitter"></a>
 				</div>
 			</div>
 		</div>

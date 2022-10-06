@@ -19,7 +19,7 @@
 		&-link {
 			padding-right: 80px;
 			a {
-				@include hoverLink(#f7c356);
+				@include hoverLink(#f7c356, 20px);
 				font-size: 20px;
 				color: #ffffff;
 			}
